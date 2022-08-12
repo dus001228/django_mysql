@@ -1,0 +1,30 @@
+.unit{
+    font-size: large;
+    font-weight: bold;
+}
+
+a{
+    color: black;
+}
+
+#activ{
+    margin: 10%; 
+    margin-top: 5%;
+}
+
+#searchbar{
+    width: 30%;
+    margin-left: 70%;
+}
+
+@media screen and (max-width: 768px) { 
+    #activ{
+        margin: 3%;
+        margin-top: 5%;
+    }
+
+    #searchbar{
+        width: 70%;
+        margin-left: 30%;
+    }
+}
